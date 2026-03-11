@@ -1,2 +1,2 @@
 # crmc
-Medical  Life Expectancy 78 Years on Average
+Medical "Laughter is the Best medicine."
