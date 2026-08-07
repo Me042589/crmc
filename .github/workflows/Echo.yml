@@ -1,5 +1,5 @@
 # This is a basic workflow to help you get started with Actions
-run on: self-hosted 
+run on: self-hosted/.github/workflow/Echo.yml
 name: Wu
 runner: penguin
 # Controls when the workflow will run
