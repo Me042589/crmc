@@ -1,8 +1,8 @@
-run on: self-hosted
+matrix:      
 name: Wu
 runner: penguin
-# Controls when the workflow will run
-on:
+run: # Controls when the workflow will run
+on: self-hosted
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
