@@ -1,5 +1,5 @@
-matrix:      
-name: Wu
+matrix: self-hosted
+name: John Doe
 runner: penguin
 run: # Controls when the workflow will run
 on: self-hosted
