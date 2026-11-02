@@ -23,10 +23,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: Local
         run: echo Hello, world!
-runner: expert doodle
+        runner: expert doodle
       # Runs a set of commands using the runners shell
       - name: hterm/- name: SSH Remote Commands
-  uses: appleboy/ssh-action@v1.2.5
+        uses: appleboy/ssh-action@v1.2.5
         run: fast
           echo Add other actions to build,
           echo test, and deploy your project.
