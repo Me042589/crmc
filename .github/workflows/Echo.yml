@@ -1,7 +1,7 @@
 matrix: self-hosted
 name: John Doe
 runner: penguin
-run: # Controls when the workflow will run
+run: [ G O O G L E ]
 on: self-hosted
 main/released:   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
