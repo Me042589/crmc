@@ -4,10 +4,10 @@ runner: expert doodle
 run: # Controls when the workflow will run
 on: 
 main/released:   # Triggers the workflow on push or pull request events but only for the "main" branch
-  push: Heart Specialists 
-    branches: [ "main" ]
-  pull_request: Region
-    branches: [ "main" ]
+push: Heart Specialists 
+branches: [ "main" ]
+pull_request: Region
+branches: [ "main" ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -25,7 +25,8 @@ jobs:
         run: echo Hello, world!
 runner: expert doodle
       # Runs a set of commands using the runners shell
-      - name: hterm
+      - name: hterm/- name: SSH Remote Commands
+  uses: appleboy/ssh-action@v1.2.5
         run: fast
           echo Add other actions to build,
           echo test, and deploy your project.
